@@ -1,0 +1,140 @@
+.comment {
+    overflow: hidden;
+
+    &__wrapper {
+        display: flex;
+        width: 100%;
+    }
+
+    &__img {
+        display: block;
+        left: 0;
+        height: 490px;
+        width: 50%;
+    }
+
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background-color: rgba(92, 50, 73, 1);
+    }
+
+    &__title {
+        font-family: 'Cardo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        /* display: flex;
+        align-items: center; */
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+        span {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+    }
+
+    &__buttons {
+        height: 34px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    &__button {
+        width: 14px;
+        height: 14px;
+        border-radius: 100%;
+        border: 1px solid #7E5D6F;
+        margin-right: 25px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+        /*   opacity: 1; */
+           background-color: #7E5D6F;
+        }
+    }
+
+
+
+}
+
+/* .testimonials {
+   
+   background-color: rgba(92, 50, 73, 1);
+   overflow: hidden;
+  
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__wooman {
+        position: relative;
+        width: 50%;
+        height: 490px;
+    }
+    &__img{
+        position: absolute;
+        top: 0;      
+        right: 0;
+        z-index: 1;
+    }
+
+    &__comment {
+      
+         width: 50%;
+    }
+    &__titles{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      padding-top: 116px;
+      z-index: 1;
+    
+    }
+
+    &__title {
+        font-family: 'Cardo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+      
+       
+    }
+
+    &__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      
+       
+         
+    }
+} */

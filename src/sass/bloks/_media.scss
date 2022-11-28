@@ -1,0 +1,265 @@
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        max-width: 984px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+        /*  height: 523.89px; */
+    }
+
+    .header {
+        height: auto;
+
+        &__promo {
+            padding-left: 25px;
+            /*  border-bottom: 1px solid #000; */
+        }
+
+        &__nav {
+            font-size: 12px;
+            padding-right: 35px;
+        }
+
+        /*  &__link{
+            margin-left: 39px;
+        } */
+    }
+
+
+    .baner {
+        height: auto;
+
+        &__title {
+            font-size: 48px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__button {
+            width: 314px;
+            height: 80px;
+        }
+
+    }
+
+    .features {
+        margin: 78px 0;
+    }
+
+    .work {
+        display: flex;
+
+        &__item {
+            width: 25%;
+            height: 230.57px;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+    .team {
+        margin: 78.22px 0 78.41px;
+
+        &__inside {
+            margin: 0 -12.615px;
+        }
+
+        &__item {
+            padding: 0 12.615px;
+            height: 520.59px;
+            width: 227.08px;
+        }
+
+        &__img {
+            width: 227.08px;
+            height: 227.08px;
+        }
+
+        &__name {
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        &__job {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__descr {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        /*  &__social {
+            display: flex;
+        }
+
+        &__networks {
+            margin-top: 38px;
+            padding-right: 6px;
+        } */
+    }
+
+    .comment {
+        height: auto;
+
+        &__img {
+            /*  width: 502px; */
+            height: 332px;
+        }
+
+        &__descr {
+            padding-right: 70px;
+        }
+
+        &__title {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+
+            span {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+
+        &__buttons {
+            height: 33.49px;
+        }
+
+        &__button {
+
+            width: 9.49px;
+        }
+    }
+
+    .download {
+        margin: 77.51px 0 78px 0;
+
+        &__title {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__button {
+            width: 314px;
+            height: 80px;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+
+    .footer {
+        max-height: 230;
+
+        &__wrapper {
+            padding: 25px 25px;
+            /*   height: 169px; */
+        }
+
+        &__item {
+            width: 314px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__a {
+            margin-top: 32px;
+        }
+
+        &__networks {
+            width: 33px;
+            height: 33px;
+        }
+
+        &__subfooter {
+            height: 60.7px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        width: 100%;
+        max-width: 280.84px;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+
+    .header {
+        height: auto;
+        &__hamburger{
+            display: block;
+            padding-right: 30px;
+        }
+        &__item{
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #FFFFFF;
+        }
+        &__promo {
+            padding:0 10px;
+        }
+        &__nav{
+            display: none;
+        }
+    }
+
+    .baner {
+        height: auto;
+        &__titles{
+         padding: 52px 0;
+        /*  width: 280px; */
+        
+        }
+
+        &__title {
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__button {
+            width: 280px;
+            height: 60px;
+            font-size: 24px;
+        }
+
+    }
+    .features {
+        margin:40px 0;
+        /* &__items{
+
+        } */
+    }
+}

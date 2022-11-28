@@ -1,0 +1,81 @@
+.work {
+    /* display: grid;
+    grid-template-rows: repeat(2,2fr);
+    grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+     
+
+
+    &__item {
+        width: 25%;
+        height: 340px;
+        position: relative;
+        /* чтоб абсолют сработал */
+        overflow: hidden;
+
+      
+    }
+
+    &__img {
+        position: absolute;
+        top: 50%;
+        /* прижать */
+        left: 50%;
+        z-index: 1;
+        width:379px;
+        height:340px;
+
+
+        transform: translate3d(-50%, -50%, 0);
+        /* выравнивание по оси x y z */
+    }
+
+    &__active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        /* вся ш и д в блок кот есть */
+        height: 100%;
+        position: absolute;
+        background-color: rgba(232, 69, 69, 0.9);
+        /* последнее прозрачность */
+        top: 0%;
+        left: 0%;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity .2s linear; 
+        &:hover {
+            opacity: 1;
+        }
+      
+        /* opacity устанавливает непрозрачность элемента. Непрозрачность - это степень, в которой содержимое скрывается за элементом, является противоположностью прозрачности. opacity применяется к элементу в целом, включая его содержимое, даже если значение не наследуется дочерними элементами. */
+
+        
+       
+    }
+
+    &__title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    &__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+
+    }
+}

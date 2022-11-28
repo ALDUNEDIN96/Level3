@@ -1,0 +1,28 @@
+* *:before *:after{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;  
+ 
+                  /*  проверь селектор и body */
+
+}
+
+.container{
+    width: 100%;                /*  ширина блока */
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px
+  
+}
+
+
+@import 'bloks/header';
+@import 'bloks/baner';
+@import 'bloks/features';
+@import 'bloks/work';
+@import 'bloks/team';
+@import 'bloks/comment';
+@import 'bloks/download';
+@import 'bloks/footer';
+@import 'bloks/header';
+@import 'bloks/media';

@@ -1,0 +1,51 @@
+.baner {
+    height: 747px;
+    background: linear-gradient(rgba(32, 41, 103, 0.629), rgba(20, 19, 55, 0.563)), url("../img/baner.png") center (center/cover) no-repeat;
+    padding-top: 100px;
+    margin: 0 auto;
+
+    /* как шапка */
+    &__titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 130px 0 120px 0;
+        text-align: center;
+        /*   margin: 0 auto; */
+    }
+
+    &__title {
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 64px;
+        line-height: 75px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: 'Raleway';
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        width: 370px;
+        height: 80px;
+        background-color: #FF4343;
+        border: none;
+        cursor: pointer;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 80px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+}

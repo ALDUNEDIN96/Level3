@@ -1,0 +1,50 @@
+.header {
+    width: 100%;              /* шапка поверх всего */
+    height: 100px;  /* для padding ниже */
+    position : absolute;
+    top:0;
+    left: 0;
+    z-index: 1000;
+   /*  padding: 36px 0; */
+ /*   height: 100px; */
+  /*  background-color: rgb(0, 0, 0); */
+
+    &__promo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(186, 187, 197, 1);
+        padding: 20px 0;
+    }
+    &__nav{
+        font-family: 'Raleway';
+        display: flex;
+        font-size:13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: opacity .2s linear;   /*  переход из 0.75 в 1 */
+    }
+    &__hamburger{
+        display: none;
+    }
+    &__link{
+        margin-left: 50px;
+        text-decoration:none;
+        color:#fff;
+        opacity: 0.75; /* прозрачность */
+        
+        &:hover{
+         /*    text-decoration: underline; */ /* при наведении */
+            opacity: 1;
+           /*  text-decoration: underline; */
+           /*  border-bottom: 6px solid rgba(186, 187, 197, 1); */
+          /*   padding-bottom: 2px; */
+          
+        }
+        &:first-child{
+            margin-left: 0;  /* у 1й ссылки  */
+        }
+       
+        
+    }
+}
